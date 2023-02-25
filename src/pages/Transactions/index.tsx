@@ -1,6 +1,6 @@
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
-import { TransactionsContainer, TransactionsTable } from "./styles";
+import { PriceHighLight, TransactionsContainer, TransactionsTable } from "./styles";
 
 export function Transactions() {
   return (
@@ -13,13 +13,13 @@ export function Transactions() {
           <tbody>
             <tr>
               <td width={"50%"}>Desenvolvimento de site</td>
-              <td>R$ 12.000,00</td>
+              <PriceHighLight variant="income">R$ 12.000,00</PriceHighLight>
               <td>Venda</td>
               <td>13/04/2023</td>
             </tr>
             <tr>
               <td width={"50%"}>Hamburguer</td>
-              <td>R$ 59,00</td>
+              <PriceHighLight variant="outcome">R$ 59,00</PriceHighLight>
               <td>Alimentação</td>
               <td>13/04/2023</td>
             </tr>
