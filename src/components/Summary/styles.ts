@@ -8,7 +8,9 @@ export const SummaryContainer = styled.section`
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 2rem; 
+
+  margin-top: -5rem;
 `;
 
 interface SummaryCardProps {
