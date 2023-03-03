@@ -10,6 +10,7 @@ import {
   TransactionsTable,
 } from './styles'
 
+
 export function Transactions() {
   const { transactions } = useContext(TransactionsContext)
 
