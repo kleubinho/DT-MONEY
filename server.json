@@ -47,6 +47,14 @@
       "type": "outcome",
       "createdAt": "2023-03-02T03:06:56.587Z",
       "id": 6
+    },
+    {
+      "category": "Alimentação",
+      "price": 100,
+      "description": "Comida",
+      "type": "income",
+      "createdAt": "2023-03-06T16:41:54.019Z",
+      "id": 7
     }
   ]
 }
